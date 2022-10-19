@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', 'Inter';
+}
+
+body{
+    background-image: url('./img/strong-man-silhouette-with-weight-svgrepo-com.svg');
+    background-repeat: repeat;
+}
+
+.contact-main-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    min-width: 320px;
+    max-width: 630px;
+    height: 334px;
+    text-align: center;
+    background: linear-gradient(207.8deg, #7373b4 16.69%, #231f72 100%);
+    margin: 50% auto;
+}
+
+main .contact-main-img{
+    min-width: 320px;
+    width: 150px;
+    height: 75px;
+    background-image: url('./img/logo_chris_beta_2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+main .contact-main-container h1{
+    color: white;
+}
+
+.contact_info_part{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin: 0 auto;
+}
+
+.icon_info{
+    width: 30px;
+    height: 30px;
+}
+
+.ancla{
+    color: white;
+    text-decoration: none;
+}
+
+.ancla:hover{
+    text-decoration: underline;
+}
+
